@@ -32,3 +32,17 @@ out/production/chap04/package1/B.class
 out/production/chap04/package2/AccessEx.class
 out/production/chap04/package2/C.class
 out/production/chap04/package2/D.class
+out/production/chap04/subject/Box.class
+out/production/chap04/subject/Calculator.class
+out/production/chap04/subject/Circle.class
+out/production/chap04/subject/CircleManager.class
+out/production/chap04/subject/GamblingGame.class
+out/production/chap04/subject/Phone.class
+out/production/chap04/subject/Phone2.class
+out/production/chap04/subject/Player.class
+out/production/chap04/subject/Question.class
+out/production/chap04/subject/QuestionEx.class
+out/production/chap04/subject/QuestionEx2.class
+out/production/chap04/subject/Rect.class
+out/production/chap04/subject/Song.class
+out/production/chap04/subject/StaticTest.class
