@@ -29,7 +29,7 @@ public class GamblingGame {
             }
             System.out.println();
             if ((val[0] == val[1]) && (val[1] == val[2])) {
-                System.out.println(p[n] + "이 승리하였습니다.");
+                System.out.println(p[n].getName() + "이 승리하였습니다.");
                 break;
             }
             n++;
