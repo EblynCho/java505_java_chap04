@@ -104,14 +104,28 @@ public class QuestionEx2 {
         }
 
 
-////        문제 1) 사칙연산을 할 수 있는 클래스 C/
+//        문제 1) 사칙연산을 할 수 있는 클래스 Calculator을 생성하고 정수 2개 입력받아 계산한 프로그램을 작성하세요
+//        멤버 변수 : int num1, num2, result
+//        멤버 메서드 : sum, sub, multi, div
+//        모든 결과는 int 데이터 타입으로 사용, 메서드의 4가지 형태 중 아무거나 사용
+
+        System.out.print("정수 2개를 입력하세요 : ");
+        Calculator calc = new Calculator(scanner.nextInt(), scanner.nextInt());
+//        calc.num1 = scanner.nextInt();
+//        calc.num2 = scanner.nextInt();
+
+        calc.sum();
+        calc.sub();
+        calc.multi();
+        calc.div();
 
 
-//        문제 2) 1 ~ 45까지의 임의의 숫자 6개를 생성하여 그 결과를 출력하는 프로그램을 작성하세요
+//        문제 2) 1 ~ 45까지의 임의의 숫자 7개를 생성하여 그 결과를 출력하는 프로그램을 작성하세요
 //        배열을 사용하여 랜덤으로 생성된 데이터를 저장
 //        Math.random() 사용
 
         int array2[] = new int[7];
+
         for (int i = 0; i < array2.length; i++) {
             array2[i] = (int) ((Math.random() * 45) + 1);
             System.out.print(array2[i] + "\t");
